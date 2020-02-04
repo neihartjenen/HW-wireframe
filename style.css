@@ -18,6 +18,7 @@ p {
     background-color: rgb(255, 255, 255);
     margin: right;
     padding: 15px;
+    float: right;
 }
 h3 {
     clear: both;
@@ -29,16 +30,17 @@ h3 {
 button { 
     clear: both;
     font-size: 16px;
-    margin: right;
     font-weight: 500;
-    text-align: right;
+    text-align: center;
+    padding: 5px;
 }
-#art1 {text-align: right;
-    font-size: 35px;
-    background-color:white;
+#art1 {
+    text-align: left;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
     margin: right;
-    padding: 10px;
-    font-style: italic;
+    padding: 15px;
+    float: right;
 }
 section {
     clear: right;

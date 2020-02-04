@@ -1,0 +1,48 @@
+h1 {
+    font-size: 40px;
+    background-color: #ebebeb;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 25px;
+    background-color: white;
+    padding: 5px;
+    margin: right;
+}
+#paragraph1 {
+    text-align: left;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: right;
+    padding: 15px;
+}
+h3 {
+    clear: both;
+    text-align: left;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: italic;
+}
+button { 
+    clear: both;
+    font-size: 16px;
+    margin: right;
+    font-weight: 500;
+    text-align: right;
+}
+#art1 {text-align: right;
+    font-size: 35px;
+    background-color:white;
+    margin: right;
+    padding: 10px;
+    font-style: italic;
+}
+section {
+    clear: right;
+    float: right;
+    font-size: 20px;
+    font-weight: 400;
+}

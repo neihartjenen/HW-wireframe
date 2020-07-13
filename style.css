@@ -1,50 +1,107 @@
+header,
+section,
+aside,
+footer {
+    margin: 20px;
+    background:white;
+}
+
+header {
+    height: 70px;
+}
+
 h1 {
-    font-size: 40px;
-    background-color: #ebebeb;
-    font-weight: 400;
     text-align: center;
+}
+
+.nav {
+    background: white;
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
     padding: 20px;
 }
 
-p {
-    font-size: 25px;
-    background-color: white;
-    padding: 5px;
-    margin: right;
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:red;
+    background: black;
+    width: '960px';
+    font-size: '18px'
 }
-#paragraph1 {
-    text-align: left;
-    font-size: 20px;
-    background-color: rgb(255, 255, 255);
-    margin: right;
-    padding: 15px;
-    float: right;
-}
-h3 {
-    clear: both;
-    text-align: left;
-    font-size: 26px;
-    font-weight: 600;
-    font-style: italic;
-}
-button { 
-    clear: both;
-    font-size: 16px;
-    font-weight: 500;
-    text-align: center;
-    padding: 5px;
-}
-#art1 {
-    text-align: left;
-    font-size: 20px;
-    background-color: rgb(255, 255, 255);
-    margin: right;
-    padding: 15px;
-    float: right;
-}
+
 section {
-    clear: right;
-    float: right;
-    font-size: 20px;
-    font-weight: 400;
+    /** width: 55%;
+    float: left;**/
+    overflow: auto;
+}
+
+aside {
+    width: auto;
+    /**float: left;**/
+    padding-left: 20px;
+    margin: 20px;
+}
+
+.relative {
+    position: relative;
+    width: 55%;
+}
+
+.absolute {
+    position: absolute;
+    width: 80%;
+    border: 20px;
+}
+
+article {
+    /** position: absolute; **/
+    color: white;
+    background: black;
+    overflow: auto;
+    margin: 10px;
+    text-align: center;
+}
+
+
+p {
+    color: #777;
+    background: #ebebeb;
+    margin: 10px;
+}
+
+.container {
+    height: 100px;
+    position: relative;
+}
+
+.SecContainer {
+    float: left;
+    width: 60%;
+}
+
+.AsiContainer {
+    float: left;
+    width: 40%;
+    background-color: black;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    clear: both;
+    height: 70px;
 }
